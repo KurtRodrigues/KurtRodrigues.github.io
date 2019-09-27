@@ -3,29 +3,7 @@
 <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
-<!------------------------------------------- -------------------------------------->   
-      <script>
-  
-      AFRAME.registerComponent('model-opacity', {
-  schema: {default: 1.0},
-  init: function () {
-    this.el.addEventListener('model-loaded', this.update.bind(this));
-  },
-  update: function () {
-    var mesh = this.el.getObject3D('mesh');
-    var data = this.data;
-    if (!mesh) { return; }
-    mesh.traverse(function (node) {
-      if (node.isMesh) {
-        node.material.opacity = data;
-        node.material.transparent = data < 1.0;
-        node.material.needsUpdate = true;
-      }
-    });
-  }
-});
-    </script>
-      
+     
 <!-------------------------------------------------------------------------------->
       <!-- marker personalizado -->
       <a-marker  preset='pattern' type='pattern'  url="https://raw.githubusercontent.com/KurtRodrigues/AR--teste/master/pattern-smartphone-in-hand-vector.patt">
@@ -39,19 +17,8 @@
       <a-gltf-model src="https://raw.githubusercontent.com/KurtRodrigues/AR--teste/master/drill-2.gltf" position = "0 0 1" rotation="0 0 0"  animation="property: position; to: 0.2 -0.2.50 1; loop: true; dur: 3000"> </a-gltf-model>
       
     <a-gltf-model src="https://raw.githubusercontent.com/KurtRodrigues/AR--teste/master/paca%2Bbancada.gltf" position = "0 0 1" rotation="0 0 0" ></a-gltf-model>
- 
-        
-        <a-gltf-model src="https://raw.githubusercontent.com/KurtRodrigues/AR--teste/master/xs.gltf" position = "0 0 1" rotation="0 0 0" visible="true">
-        
-         <a-animation attribute="model-opacity"
-               
-               begin="3000"
-               dur="2000"
-               from="1"
-               to="0"
-               repeat= "100" > </a-animation>
-       
-        </a-gltf-model>
+      
+        <a-gltf-model src="https://raw.githubusercontent.com/KurtRodrigues/AR--teste/master/xs.gltf" position = "0 0 1" rotation="0 0 0" visible=false animation="property: visible; to: true; loop: true; dur: 3000" color="#FF0000"> </a-gltf-model>
         
 
       </a-marker>
