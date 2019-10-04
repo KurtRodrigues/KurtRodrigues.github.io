@@ -1,6 +1,6 @@
 # KurtRodrigues.github.io
 
-        Esse é um projeto desenvolvido para a cadeira “Interação humano computador” do curso superior de Análise e Desenvolvimento 
+  Esse é um projeto desenvolvido para a cadeira “Interação humano computador” do curso superior de Análise e Desenvolvimento 
   da FATEC 1º semestre 2019 - São José dos Campos.   O trabalho foi executado com base em uma proposta de resolução para a empresa
   “LATECOERE Do Brasil indústria”, ele tem o intuito de reforçar a atenção ao uso de um equipamento com fins de diminuir a ocorrência
   de peças danificadas por perfuração. 
