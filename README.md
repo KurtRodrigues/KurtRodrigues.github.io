@@ -8,8 +8,8 @@
         
 ¹ Esse programa foi executado por meio de AR.JS - https://github.com/jeromeetienne/AR.js/blob/master/README.md
 
-² A execução por ser feita por meio do site Codepen: 1º opção) https://codepen.io/kurtrodrigues/pen/ExxYRjd 
-                                                     2º opção) https://kurtrodrigues.github.io/ArCODE.html
+² A execução por ser feita em => 1º opção) https://codepen.io/kurtrodrigues/pen/ExxYRjd 
+².¹ A execução por ser feita em => 2º opção) https://kurtrodrigues.github.io/ArCODE.html
 
 
 Rafael Rodrigues. 04/10/2019 
