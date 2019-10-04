@@ -5,11 +5,15 @@
   “LATECOERE Do Brasil indústria”, ele tem o intuito de reforçar a atenção ao uso de um equipamento com fins de diminuir a ocorrência
   de peças danificadas por perfuração. 
     
-    Esse programa foi executado por meio de AR.JS - https://github.com/jeromeetienne/AR.js/blob/master/README.md
- 
+        
+¹ Esse programa foi executado por meio de AR.JS - https://github.com/jeromeetienne/AR.js/blob/master/README.md
+
+² A execução por ser feita por meio do site Codepen: https://codepen.io/kurtrodrigues/pen/ExxYRjd
 
 
 Rafael Rodrigues. 04/10/2019 
+
+
 
       
       
